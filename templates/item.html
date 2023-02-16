@@ -1,0 +1,14 @@
+<html>
+<head>
+    <title>Buy {{name}}</title>
+</head>
+<body>
+<h1>item name: {{name}}</h1>
+<p>item description: {{description}}</p>
+<p>item price: {% widthratio price 100 1 %}$</p>
+<a href="{% url 'buy' id  %}" class="button">Buy</a>
+
+</body>
+</html>
+
+ 
